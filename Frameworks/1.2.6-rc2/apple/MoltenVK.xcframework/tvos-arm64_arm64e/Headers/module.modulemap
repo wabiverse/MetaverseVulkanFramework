@@ -1,5 +1,0 @@
-module MoltenVK {
-  umbrella header "MoltenVK/vk_mvk_moltenvk.h"
-  export *
-  link "MoltenVK"
-}

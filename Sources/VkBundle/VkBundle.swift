@@ -22,7 +22,6 @@
  * -------------------------------------------------------------- */
 
 import Foundation
-import MoltenVK
 
 public class VkBundle
 {
