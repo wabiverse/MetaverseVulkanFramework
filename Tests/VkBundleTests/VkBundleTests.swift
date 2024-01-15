@@ -29,9 +29,9 @@ final class VkBundleTests: XCTestCase
 {
   func testVkInit()
   {
-    VkBundle.shared.vkInit()
-    VkBundle.shared.vkInfo()
-    XCTAssertTrue(FileManager.default.fileExists(atPath: VkBundle.shared.vkSdkPath!))
+    VkBundler.shared.vkInit()
+    VkBundler.shared.vkInfo()
+    XCTAssertTrue(FileManager.default.fileExists(atPath: VkBundler.shared.vkSdkPath!))
 
     let rawValue = getenv("VULKAN_SDK") ?? nil
     let vulkanSdk = String(utf8String: rawValue!)

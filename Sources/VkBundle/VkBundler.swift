@@ -23,9 +23,9 @@
 
 import Foundation
 
-public class VkBundle
+public class VkBundler
 {
-  public static var shared = VkBundle()
+  public static var shared = VkBundler()
 
   private init()
   {

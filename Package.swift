@@ -16,7 +16,7 @@ let package = Package(
         .target(name: "MoltenVK")
       ],
       resources: [
-        .copy("Resources"),
+        .copy("Resources/vulkan"),
       ],
       swiftSettings: [
         .interoperabilityMode(.Cxx)
